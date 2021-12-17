@@ -1,0 +1,269 @@
+/*******************
+ general 
+ ******************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+  width: 375px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+}
+
+/*******************
+ header section 
+ ******************/
+header {
+  width: 100%;
+  height: 43px;
+  padding: 56px 21px 33px 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 18px;
+  line-height: 26.64px;
+  font-weight: 500;
+}
+header div {
+  display: flex;
+  gap: 18px;
+  margin-right: 21px;
+}
+.header__icon__1 {
+  color: black;
+}
+img {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: block;
+}
+
+/*******************
+ bank section 
+ ******************/
+.bank__section {
+  padding: 23px 48px 25px 45px;
+}
+.bank__container {
+  width: 279px;
+  height: 155px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 16px rgba(226, 191, 66, 0.19);
+  position: relative;
+}
+.bank__account__num {
+  padding: 14px 0 0 0;
+}
+.bank__account__num div {
+  display: flex;
+}
+.bank__account__num p:nth-child(1) {
+  margin: 0px 70.09px 16px 85px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.24px;
+  color: #858585;
+}
+.bank__account__num p:nth-child(2) {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+.bank__left__money__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bank__left__money {
+  width: 160.57px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bank__left__money strong {
+  font-size: 24px;
+  line-height: 20.72px;
+  margin-left: 6px;
+}
+.bank__left__money p {
+  font-size: 12px;
+  line-height: 35.52px;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+.bank__range {
+  padding: 0 14px 33px 32px;
+  margin-top: 23px;
+}
+.bank__range input {
+  width: 202px;
+  height: 6px;
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+.bank__range p {
+  text-align: center;
+}
+.bank__left__day {
+  margin: 12px 10px 6px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #858585;
+}
+.bank__advertiesment {
+  width: 100%;
+  margin-top: 24px;
+  margin-left: 4px;
+  display: flex;
+  gap: 6px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.bank__input__wrapper {
+  margin-top: 11px;
+  display: flex;
+  position: relative;
+}
+.bank__input__wrapper p {
+  position: absolute;
+  right: -2px;
+  top: -9px;
+}
+
+/*******************
+ history section 
+ ******************/
+.history__section {
+  background: #f5f5f5;
+  box-shadow: 0px -5px 14px rgba(189, 144, 28, 0.08);
+  border-radius: 30px 30px 0px 0px;
+  padding: 25px 20px 0px 30px;
+  position: relative;
+  width: 375px;
+}
+.underline {
+  width: 48px;
+  height: 2.36px;
+  margin: 0 auto;
+  background: #c4c4c4;
+  border-radius: 4px;
+  position: absolute;
+  top: 4.71px;
+  right: 50%;
+  transform: translateX(50%);
+}
+.moneybox__container {
+  display: flex;
+  gap: 13px;
+}
+.history__moneybox {
+  width: 162px;
+  height: 47px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  background: #dadada;
+  border-radius: 6px;
+}
+.history__moneybox.fridge div {
+  background-color: #feb700;
+}
+
+.history__moneybox div {
+  height: 47px;
+  width: 97px;
+  background: #ff5f00;
+  border-radius: 6px 0px 0px 6px;
+}
+.history__moneybox div div {
+  padding: 5px 5px 7px 13px;
+}
+.history__moneybox p {
+  color: #fff;
+}
+/* .history__date__section {
+  padding: 0 37px 38px 37px;
+} */
+.date__and__spend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.date__and__spend p:nth-child(1) {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+.date__and__spend p:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  color: #b4b4b4;
+  line-height: 21px;
+}
+.underline__history {
+  width: 320px;
+  border: 1px solid #dcdcdc;
+  margin: 7px auto 8px;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+}
+.history span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__outcome {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #444444;
+}
+.history__income {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  color: #ff5f00;
+}
+
+/*******************
+ nav section 
+ ******************/
+nav {
+  width: 375px;
+  height: 76px;
+  background: linear-gradient(163.63deg, #00bdb2 11.35%, #c4e7b8 139.96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  position: absolute;
+  top: 735px;
+}
+nav ul {
+  display: flex;
+  width: 297px;
+  justify-content: space-between;
+}

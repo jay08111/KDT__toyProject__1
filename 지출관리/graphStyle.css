@@ -1,0 +1,94 @@
+/*******************
+ general 
+ ******************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 375px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.24px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+  margin-bottom: 33px;
+}
+/*******************
+ history section 
+ ******************/
+.history__section {
+  padding: 44px 13px 0px 30px;
+}
+.close__btn {
+  margin-left: 300px;
+}
+.history__article {
+  position: relative;
+}
+.history__article div:nth-child(1) {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.24px;
+  color: #444444;
+  margin-bottom: 33.71px;
+  /* border: 1px solid #000; */
+}
+.history__money {
+  position: absolute;
+  right: 24px;
+  top: -4px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: right;
+  letter-spacing: -0.24px;
+  color: #ff5f00;
+}
+.history__input {
+  background: #c4c4c4;
+  border-radius: 3px;
+  width: 308px;
+  height: 9.18px;
+}
+.history__report {
+  margin-top: 67.12px;
+}
+.history__parttern {
+  margin-top: 261px;
+}
+/******************* 
+ nav section 
+ ******************/
+nav {
+  width: 375px;
+  height: 76px;
+  background: linear-gradient(163.63deg, #00bdb2 11.35%, #c4e7b8 139.96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  position: absolute;
+  top: 735px;
+}
+nav ul {
+  display: flex;
+  width: 297px;
+  justify-content: space-between;
+}

@@ -1,0 +1,107 @@
+/*******************
+ general 
+ ******************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 375px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+li {
+  list-style: none;
+}
+img {
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.24px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+  margin-bottom: 33px;
+}
+/*******************
+ widthdrawal section 
+ ******************/
+.widthdrawal__section {
+  padding: 44px 13px 0px 30px;
+}
+.close__btn {
+  margin-left: 300px;
+}
+.widthdrawal__btn__input {
+  width: 317px;
+  height: 47px;
+  border: 1px solid #858585;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  color: #000000;
+}
+.widthdrawal__individual__profile {
+  margin-top: 44px;
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.widthdrawal__grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.widthdrawal__grid div p:nth-child(1) {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.24px;
+  color: #000000;
+}
+
+.account__number {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  color: #444444;
+}
+.icon__container {
+  display: flex;
+  align-items: center;
+}
+.account__icon {
+  margin-left: 49px;
+}
+/******************* 
+ nav section 
+ ******************/
+nav {
+  width: 375px;
+  height: 76px;
+  background: linear-gradient(163.63deg, #00bdb2 11.35%, #c4e7b8 139.96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  position: absolute;
+  top: 735px;
+}
+nav ul {
+  display: flex;
+  width: 297px;
+  justify-content: space-between;
+}
