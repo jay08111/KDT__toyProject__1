@@ -159,7 +159,6 @@ img {
   padding: 25px 20px 0px 30px;
   position: relative;
   width: 375px;
-  height: 383px;
 }
 .underline {
   width: 48px;
@@ -185,14 +184,14 @@ img {
   background: #dadada;
   border-radius: 6px;
 }
-.history__moneybox.fridge div {
-  background-color: #feb700;
+.history__moneybox.donation div {
+  background: #eeba00;
 }
 
 .history__moneybox div {
   height: 47px;
   width: 97px;
-  background: #ff5f00;
+  background: #0a73c4;
   border-radius: 6px 0px 0px 6px;
 }
 .history__moneybox div div {
@@ -201,9 +200,6 @@ img {
 .history__moneybox p {
   color: #fff;
 }
-/* .history__date__section {
-  padding: 0 37px 38px 37px;
-} */
 .date__and__spend {
   display: flex;
   justify-content: space-between;
