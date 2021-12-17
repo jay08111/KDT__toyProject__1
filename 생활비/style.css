@@ -159,7 +159,6 @@ img {
   padding: 25px 20px 0px 30px;
   position: relative;
   width: 375px;
-  height: 383px;
 }
 .underline {
   width: 48px;
@@ -261,7 +260,7 @@ nav {
   align-items: center;
   margin-top: 1px;
   position: absolute;
-  top: 720px;
+  top: 735px;
 }
 nav ul {
   display: flex;

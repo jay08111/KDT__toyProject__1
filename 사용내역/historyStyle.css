@@ -184,14 +184,15 @@ img {
   background: #dadada;
   border-radius: 6px;
 }
-.history__moneybox.donation div {
-  background: #005f59;
+.history__moneybox.fridge div {
+  background: #feb700;
 }
 
 .history__moneybox div {
   height: 47px;
   width: 97px;
-  background: #55acee;
+
+  background: #ff5f00;
   border-radius: 6px 0px 0px 6px;
 }
 .history__moneybox div div {
